@@ -20,16 +20,18 @@ class Menu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
         setSupportActionBar(toolbar)
-
+        cargarFragmento(Inicio())
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
+
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
         //nav_view.setItemIconTintList(null);
+
     }
 
     override fun onBackPressed() {
@@ -87,7 +89,7 @@ class Menu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
                 startActivity(web)
             }
             else->{
-                Log.d("DEBUGAPP","No entro en ningun caso")
+                cargarFragmento(Inicio())
             }
 
         }

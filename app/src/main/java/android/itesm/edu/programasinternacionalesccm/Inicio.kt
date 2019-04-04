@@ -17,13 +17,13 @@ private const val ARG_PARAM2 = "param2"
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [SigueProceso.OnFragmentInteractionListener] interface
+ * [Inicio.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [SigueProceso.newInstance] factory method to
+ * Use the [Inicio.newInstance] factory method to
  * create an instance of this fragment.
  *
  */
-class SigueProceso : Fragment() {
+class Inicio : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -42,13 +42,15 @@ class SigueProceso : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sigue_proceso, container, false)
+        return inflater.inflate(R.layout.fragment_inicio, container, false)
     }
 
     // TODO: Rename method, update argument and hook method into UI event
     fun onButtonPressed(uri: Uri) {
         listener?.onFragmentInteraction(uri)
     }
+
+
 
     /**
      * This interface must be implemented by activities that contain this
@@ -73,12 +75,12 @@ class SigueProceso : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment SigueProceso.
+         * @return A new instance of fragment Inicio.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            SigueProceso().apply {
+            Inicio().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
