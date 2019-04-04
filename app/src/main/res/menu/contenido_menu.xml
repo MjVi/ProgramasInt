@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/menu_TiposProgramas"
+                android:icon="@drawable/mundo"
+                android:title="Tipos de Programas"/>
+        <item
+                android:id="@+id/menu_RequisitosParticipacion"
+                android:icon="@drawable/mundo"
+                android:title="Requisitos de Participación"/>
+        <item
+                android:id="@+id/menu_ConoceOferta"
+                android:icon="@drawable/mundo"
+                android:title="Conoce la Oferta"/>
+        <item
+                android:id="@+id/menu_LlenaSolicitud"
+                android:icon="@drawable/mundo"
+                android:title="Llena tu Solicitud"/>
+        <item
+                android:id="@+id/menu_SigueProceso"
+                android:icon="@drawable/mundo"
+                android:title="Sigue tu Proceso"/>
+        <item
+                android:id="@+id/menu_Contacto"
+                android:icon="@drawable/mundo"
+                android:title="Contactanos CCM"/>
+    </group>
+
+    <item android:title="Enlaces externos">
+        <menu>
+            <item
+                    android:id="@+id/menu_Youtube"
+                    android:icon="@drawable/mundo"
+                    android:title="Tutoriales en Youtube"/>
+            <item
+                    android:id="@+id/menu_Facebook"
+                    android:icon="@drawable/mundo"
+                    android:title="Página de Facebook CCM"/>
+            <item
+                    android:id="@+id/menu_Facebook2"
+                    android:icon="@drawable/mundo"
+                    android:title="Página de Facebook"/>
+            <item
+                    android:id="@+id/menu_Calendario"
+                    android:icon="@drawable/mundo"
+                    android:title="Calendario PI"/>
+            <item
+                    android:id="@+id/menu_CalificaExperiencia"
+                    android:icon="@drawable/mundo"
+                    android:title="Califica tu Experiencia PI"/>
+        </menu>
+    </item>
+
+</menu>

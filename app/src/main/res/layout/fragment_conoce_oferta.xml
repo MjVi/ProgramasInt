@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ConoceOferta">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/tipos" android:textAlignment="center" android:textStyle="bold"
+                    android:fontFamily="casual" android:textSize="30sp"
+                    android:text="CONOCE LA OFERTA POR CONTINENTE" android:textColor="@color/colorPrimaryDark"/>
+            <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider"/>
+            <Button
+                    android:text="América del Norte"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/america1" android:textSize="24sp"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:background="@color/design_default_color_primary"/>
+            <Button
+                    android:text="América del Sur"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/america2" android:textSize="24sp"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:background="@android:color/holo_orange_light"/>
+            <Button
+                    android:text="Asia"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/asia" android:textSize="24sp"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:background="@android:color/holo_purple"/>
+            <Button
+                    android:text="Europa"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/europa" android:textSize="24sp"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:background="@android:color/holo_green_dark"/>
+            <Button
+                    android:text="Oceania"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/oceania" android:textSize="24sp"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:background="@android:color/holo_red_light"/>
+            <Button
+                    android:text="Todas"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/todas" android:textSize="24sp"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:background="@android:color/holo_blue_dark"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

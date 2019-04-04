@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".TiposProgramas">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/tipos" android:textAlignment="center" android:textStyle="bold"
+                    android:fontFamily="casual" android:textSize="30sp"
+                    android:text="TIPOS DE PROGRAMAS" android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="712dp"
+                    android:text=" "
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:fontFamily="serif" android:textColor="@color/design_default_color_primary_dark"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
